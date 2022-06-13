@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #0A542D;
+    color: #fff;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #052e18;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(14, 172, 124);
+    border-radius: 3px;
+    border: 1px solid rgb(13, 107, 79);
+}
+
+header {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+.header-box-1 {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-logo {
+    width: 450px;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.header-title {
+    font-size: 4.2em;
+    margin-left: -40px;
+    color: #00FD78;
+    text-shadow: -5px 1px 1px rgba(45, 131, 41, 0.62);
+}
+
+.header-subtitle {
+    color: #fff;
+}
+
+.header-nav-li {
+    list-style-type: none;
+    display: inline;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 30px;
+}
+
+.header-nav-li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    text-shadow: -2px 1px 1px rgba(145, 145, 145, 0.62);
+}
+
+.header-nav-li a:hover {
+    opacity: 0.6;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.main-box-1 {
+    width: 50%;
+    margin-top: 110px;
+}
+
+.main-title {
+    font-size: 3.8em;
+    color: #00FD78;
+    text-shadow: -5px 1px 1px rgba(45, 131, 41, 0.62);
+    margin-bottom: 10px;
+}
+
+.main-title-sec {
+    color: #fff;
+}
+
+.main-text {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.main-text-sec {
+    color: #00FD78;
+}
+
+.input-name,
+.input-email,
+.input-btn {
+    display: block;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.1em;
+}
+
+.input-name,
+.input-email {
+    width: 50%;
+}
+
+.input-btn {
+    width: 10%;
+    background-color: #00FD78;
+    transition: 0.2s;
+}
+
+.input-btn:hover {
+    cursor: pointer;
+    filter: brightness(1.2);
+}
+
+.main-box-2 {
+    width: 45%;
+}
+
+footer {
+    width: 80%;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    font-style: italic;
+    margin: 40px auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: #00FD78;
+    transition: 0.2s;
+    opacity: 0.9;
+}
+
+footer a:hover {
+    text-decoration: underline double;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 650px) and (min-width: 300px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .header-box-1 {
+        display: block;
+        align-items: center;
+    }
+
+    .header-logo {
+        width: 100%;
+        margin: auto;
+    }
+
+    .header-title {
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    .header-nav {
+        width: 100%;
+    }
+
+    .header-nav-li {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 1.2em;
+    }
+
+    main {
+        width: 100%;
+        display: block;
+    }
+
+    .main-title {
+        font-size: 3.2em;
+    }
+
+    .main-box-1 {
+        width: 90%;
+        margin: 10px auto;
+        padding: 20px;
+    }
+
+    .input-name,
+    .input-email {
+        width: 80%;
+    }
+
+    .input-btn {
+        width: 40%;
+    }
+
+    .main-box-2 {
+        width: 90%;
+        margin: 10px auto;
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1360px) and (min-width: 651px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    hr {
+        margin-top: 10px;
+        opacity: 0.2;
+    }
+    
+    .header-logo {
+        margin-left: -80px;
+    }
+    
+    .header-nav-li {
+        list-style-type: none;
+        display: inline;
+        font-size: 1.3em;
+        font-weight: 600;
+        margin: 35px;
+    }
+    
+    main {
+        width: 100%;
+        display: block;
+        justify-content: center;
+    }
+    
+    .main-box-1 {
+        width: 90%;
+        margin: 30px auto;
+    }
+    
+    .main-title {
+        font-size: 3.5em;
+    }
+    
+    .input-name,
+    .input-email {
+        width: 70%;
+    }
+    
+    .input-btn {
+        width: 30%;
+    }
+    
+    .main-box-2 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
